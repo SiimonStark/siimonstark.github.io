@@ -46,3 +46,9 @@ html {
   align-items: center;
   transition: all .5s ease-in-out;
 }
+
+main,
+section {
+  max-width: 100%;
+  overflow-x: hidden;
+}
