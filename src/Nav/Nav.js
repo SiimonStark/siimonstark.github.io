@@ -22,7 +22,6 @@ class Nav extends Component {
 
     return (
       <nav>
-        <iframe src="https://open.spotify.com/embed/playlist/641i9u2FmO1zUj36qG0Q20?utm_source=generator" width="60%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <button className="retro-button">
           <a href='#About'>About</a>
         </button>

@@ -1,5 +1,29 @@
 export const projects = [
   {
+    name: "Internal Facing WebTool",
+    description:
+      "Quick sample project to show general design and layout.",
+    screenshots: [
+      "https://github.com/SiimonStark/internal-facing-web-tool/blob/main/screenshots/dashboard.png?raw=true",
+      "https://github.com/SiimonStark/internal-facing-web-tool/blob/main/screenshots/signin.png?raw=true"
+    ],
+    github: "https://github.com/SiimonStark/internal-facing-web-tool",
+    liveSite: "http://www.justinpyktel.com/dashboard/home",
+    tools: ["React", "Tailwind", "Vite"]
+  },
+  {
+    name: "Mini Design Projects",
+    description:
+      "This is a collection of design prompts orangized and linked together using a custom script to write the mockups and main page.",
+    screenshots: [
+      "https://github.com/SiimonStark/50Projects50Days/blob/main/x_assets/screenshots/screen_gif.gif?raw=true",
+      "https://github.com/SiimonStark/50Projects50Days/blob/main/x_assets/screenshots/mainpage.png?raw=true"
+    ],
+    github: "https://github.com/SiimonStark/50Projects50Days",
+    liveSite: "https://www.justinpyktel.com/50Projects50Days/",
+    tools: ["Html", "Javascript", "Node"]
+  },
+  {
     name: "Codewords",
     description:
       "Placed 3rd/20 at Demo-Comp! Codewords is a digital reimagination of the boardgame CodeNames. Where 4 players on their own devices can play as paired teams. To summarize it's similar to Guess Who and Battleship, where the users have to give a one word hint and score as many words as possible.",
@@ -208,5 +232,13 @@ export const urlIcons = [
   {
     name: 'VSCode',
     url: "./assets/icons/vscode.png"
+  },
+  {
+    name: 'Tailwind',
+    url: "./assets/icons/tailwind.png"
+  },
+  {
+    name: 'Vite',
+    url: "./assets/icons/vite.png"
   },
 ]

@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Mini = ({index, project, displayProject}) => {
+const Mini = ({ index, project, displayProject }) => {
   return (
     <article
       className="thumbnail"
-      key={index}
+      key={index + project.name}
       onClick={() => displayProject(project)}
     >
       <h5 className="tip">{project.name}</h5>
-      <img 
-        src={project.screenshots[0]} 
+      <img
+        src={project.screenshots[0]}
         alt={`Screenshot of ${project.name}`} />
     </article>
   );
